@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@theme {
+    --color-dark-blue:  oklch(12.9% 0.042 264.695);
+}
+
+@utility grid-cols-auto-fit {
+    grid-template-columns: repeat(auto-fit, minmax(13.75rem, 1fr));
+}
